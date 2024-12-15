@@ -7,24 +7,24 @@
 		},
 		"generator": "Ninja",
 
-		"build_target": "Debug",
-		"build_dir": "target",
+		"buildTarget": "Debug",
+		"buildDir": "target",
 
-		"generate_cmd": [],
-		"build_cmd": [],
+		"generateCmd": [],
+		"buildCmd": [],
 	},
   {
-    "name": "clang",
-		"compilers": {
-			"C": "clang",
-			"CXX": "clang++",
-		},
-		"generator": "Ninja",
-
-		"build_target": "Debug",
-		"build_dir": "target",
-
-		"generate_cmd": [],
-		"build_cmd": [],
-	}
+	  "name": "clang",
+	  "compilers": {
+		  "C": "clang",
+		  "CXX": "clang++",
+	  },
+	  "generator": "Ninja",
+	  
+	  "buildTarget": "Debug",
+	  "buildDir": "target",
+	  
+	  "generateCmd": [],
+	  "buildCmd": [],
+  }
 ]
