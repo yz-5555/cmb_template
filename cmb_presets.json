@@ -1,30 +1,17 @@
 [
     {
-		"name": "clang-cl",
-		"compilers": {
-			"C": "clang-cl",
-			"CXX": "clang-cl",
-		},
-		"generator": "Ninja",
-
-		"buildTarget": "Debug",
-		"buildDir": "target",
-
-		"generateCmd": [],
-		"buildCmd": [],
-	},
-  {
-	  "name": "clang",
-	  "compilers": {
-		  "C": "clang",
-		  "CXX": "clang++",
-	  },
-	  "generator": "Ninja",
-	  
-	  "buildTarget": "Debug",
-	  "buildDir": "target",
-	  
-	  "generateCmd": [],
-	  "buildCmd": [],
-  }
+        "name": "default",
+        "compilers": {
+            "C": "clang-cl",
+            "CXX": "clang-cl"
+        },
+        "generator": "Ninja",
+        "source_dir": ".",
+        "build_dir": "target",
+        "build_target": "Debug",
+        "run": "myprogram.exe",
+        "generate_cmd": [],
+        "build_cmd": [],
+        "run_cmd": []
+    }
 ]
