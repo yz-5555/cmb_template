@@ -3,7 +3,6 @@
         "name": "default",
         "compilers": {
             "C": "clang-cl",
-            "CXX": "clang-cl"
         },
         "generator": "Ninja",
         "source_dir": ".",
